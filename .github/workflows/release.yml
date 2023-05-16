@@ -25,7 +25,7 @@ jobs:
 
       - name: Bump version and tag
         id: version
-        uses: mathieudutour/github-tag-action@v6
+        uses: mathieudutour/github-tag-action@v6.1
         with:
           github_token: ${{ secrets.ACTION_TOKEN }}
           release_branches: main
