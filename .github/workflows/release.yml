@@ -26,17 +26,17 @@ jobs:
         id: version
         uses: mathieudutour/github-tag-action@v5.1.1
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.ACTION_TOKEN }}
           release_branches: main
 
-      - name: Build for release
-        run: npm run build
+      # - name: Build for release
+      #   run: npm run build
 
       - name: Release
         uses: softprops/action-gh-release@v1.2.0
         with:
           files: |
-            dist/**
+            black-list
             README.md
             LICENSE
           draft: true
