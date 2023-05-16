@@ -1,5 +1,25 @@
 # Rule sets
 
+## jsdelivr link of Rule sets
+
+### Classical
+
+```md
+https:/cdn.jsdelivr.net/gh/onemoon/rule-sets/black-list/lp-private.classical.yaml
+```
+
+### Domain
+
+```md
+https:/cdn.jsdelivr.net/gh/onemoon/rule-sets/black-list/lp-private.domain.yaml
+```
+
+### Ipcidr
+
+```md
+https:/cdn.jsdelivr.net/gh/onemoon/rule-sets/black-list/lp-private.ipcidr.yaml
+```
+
 ## Software
 
 * [Clash for Windows](https://github.com/Fndroid/clash_for_windows_pkg)
