@@ -5,14 +5,14 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "update-readme": "node script/update-readme.mjs"
+    "update-readme": "node tools/readme/update-links.mjs"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/onemoon/rule-sets.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/onemoon/rule-sets/issues"
   },

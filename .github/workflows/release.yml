@@ -9,7 +9,6 @@ jobs:
   build:
     name: Build and Release
     runs-on: ubuntu-latest
-    permissions: write-all
 
     steps:
       - name: Checkout
@@ -27,7 +26,7 @@ jobs:
         id: version
         uses: mathieudutour/github-tag-action@v6.1
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.ACTION_TOKEN }}
           release_branches: main
 
       # - name: Build for release
