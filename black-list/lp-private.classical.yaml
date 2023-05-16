@@ -8,12 +8,13 @@ payload:
   - DOMAIN-SUFFIX,typeorm.io
   - DOMAIN-SUFFIX,vpnxxw.com
   - DOMAIN-SUFFIX,cnbeta.com.tw
-  - DOMAIN-SUFFIX,wire.com,
-  - DOMAIN-SUFFIX,dmhy.org,
-  - DOMAIN-SUFFIX,poe.com,
-  - DOMAIN-SUFFIX,scribd.com,
-  - DOMAIN-SUFFIX,goo.gle,
-  - DOMAIN-KEYWORD,angular,
-  - DOMAIN-KEYWORD,gitlab,
+  - DOMAIN-SUFFIX,wire.com
+  - DOMAIN-SUFFIX,dmhy.org
+  - DOMAIN-SUFFIX,poe.com
+  - DOMAIN-SUFFIX,scribd.com
+  - DOMAIN-SUFFIX,goo.gle
+  - DOMAIN-SUFFIX,hackmd.io
+  - DOMAIN-KEYWORD,angular
+  - DOMAIN-KEYWORD,gitlab
   - DOMAIN-KEYWORD,rarbg
   - DOMAIN-KEYWORD,libgen
