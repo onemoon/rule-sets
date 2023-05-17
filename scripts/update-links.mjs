@@ -9,7 +9,7 @@ import { extname, join } from "path";
 
 // Paths
 const directoryPath = "./";
-const blackListPath = "./black-list";
+const blackListPath = "./src/black-list";
 const packagePath = "package.json";
 const readme = "README.md";
 
@@ -52,6 +52,8 @@ readdir(directoryPath, (err, files) => {
         return `### ${type}\n\n\`\`\`md\n${link}\n\`\`\``;
       })
       .join("\n\n");
+
+    // console.log(linksStr);
 
     readFile(filePath, "utf8", (err, mdContent) => {
       if (err) {

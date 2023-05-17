@@ -5,20 +5,28 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "update-readme": "node script/update-readme.mjs"
+    "commit": "cz",
+    "update-readme": "node scripts/update-links.mjs"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/onemoon/rule-sets.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/onemoon/rule-sets/issues"
   },
   "homepage": "https://github.com/onemoon/rule-sets#readme",
   "devDependencies": {
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
     "prettier": "2.8.8",
     "semantic-release": "^21.0.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
   }
 }
