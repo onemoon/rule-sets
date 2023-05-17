@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "commit": "cz",
-    "update-readme": "node tools/readme/update-links.mjs"
+    "update-readme": "node scripts/update-links.mjs"
   },
   "repository": {
     "type": "git",
