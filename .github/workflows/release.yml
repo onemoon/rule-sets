@@ -41,10 +41,7 @@ jobs:
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
-          files: |
-            black-list
-            README.md
-            LICENSE
+          files: 'src'
           draft: true
           prerelease: true
           tag_name: ${{ steps.version.outputs.tag }}
