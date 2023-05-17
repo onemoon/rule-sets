@@ -3,7 +3,7 @@ name: Release
 on:
   push:
     branches:
-      - dev
+      - main
 
 jobs:
   build:
@@ -42,9 +42,9 @@ jobs:
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
-          files: 'src'
-          draft: true
-          prerelease: true
+          files: ''
+          draft: false
+          prerelease: false
           tag_name: ${{ steps.version.outputs.tag }}
           release_title: Release ${{ steps.version.outputs.tag }}
           body: |
