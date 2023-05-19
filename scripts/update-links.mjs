@@ -1,3 +1,4 @@
+import chalk from "chalk";
 import {
   readFile,
   readFileSync,
@@ -18,7 +19,7 @@ const jsdelivrHost = "https://cdn.jsdelivr.net/gh/onemoon";
 
 // Get package's name
 const packageContent = readFileSync(packagePath);
-const projectName = JSON.parse(packageContent).name;
+const projectName = JSON.parse(packageContent).name + "@latest";
 
 // Get rule-set's path
 const ruleSetFile = readdirSync(blackListPath).filter(
@@ -68,6 +69,7 @@ readdir(directoryPath, (err, files) => {
       );
       // console.log(replacedContent);
       writeFileSync(filePath, replacedContent, "utf8");
+      console.log(chalk.greenBright("Update readme successfully 🎉 ⚡️"));
     });
   });
 });

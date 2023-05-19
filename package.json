@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/onemoon/rule-sets#readme",
   "devDependencies": {
+    "chalk": "^5.2.0",
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
     "prettier": "2.8.8",
