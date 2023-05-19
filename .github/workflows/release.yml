@@ -2,11 +2,13 @@ name: Release
 
 on:
   pull_request:
+    types: [closed]
     branches:
       - main
 
 jobs:
   build:
+    if: ${{ github.event.pull_request.merged }}
     name: Build and Release
     runs-on: ubuntu-latest
     permissions:
