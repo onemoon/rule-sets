@@ -14,6 +14,7 @@ payload:
   - DOMAIN-SUFFIX,scribd.com
   - DOMAIN-SUFFIX,goo.gle
   - DOMAIN-SUFFIX,hackmd.io
+  - DOMAIN-SUFFIX,gitversion.net
   - DOMAIN-KEYWORD,angular
   - DOMAIN-KEYWORD,gitlab
   - DOMAIN-KEYWORD,rarbg
