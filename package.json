@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "commit": "cz",
+    "commit": "git-cz",
     "update-readme": "node scripts/update-links.mjs"
   },
   "repository": {
@@ -21,13 +21,13 @@
   "devDependencies": {
     "chalk": "^5.2.0",
     "commitizen": "^4.3.0",
-    "cz-conventional-changelog": "^3.3.0",
+    "cz-git": "^1.6.1",
     "prettier": "2.8.8",
     "semantic-release": "^21.0.2"
   },
   "config": {
     "commitizen": {
-      "path": "cz-conventional-changelog"
+      "path": "node_modules/cz-git"
     }
   }
 }
