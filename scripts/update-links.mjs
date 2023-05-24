@@ -50,7 +50,7 @@ readdir(directoryPath, (err, files) => {
     const linksStr = jsdelivrFullPaths
       .map((link) => {
         const type = getType(link);
-        return `### ${type}\n\n\`\`\`md\n${link}\n\`\`\``;
+        return `### [${type}](${link})\n\n\`\`\`md\n${link}\n\`\`\``;
       })
       .join("\n\n");
 
