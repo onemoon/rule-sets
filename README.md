@@ -2,19 +2,19 @@
 
 ## jsdelivr link of Rule sets
 
-### [Classical](https:/cdn.jsdelivr.net/gh/onemoon/rule-sets/src/black-list/lp-private.classical.yaml)
+### Classical
 
 ```md
 https:/cdn.jsdelivr.net/gh/onemoon/rule-sets/src/black-list/lp-private.classical.yaml
 ```
 
-### [Domain](https:/cdn.jsdelivr.net/gh/onemoon/rule-sets/src/black-list/lp-private.domain.yaml)
+### Domain
 
 ```md
 https:/cdn.jsdelivr.net/gh/onemoon/rule-sets/src/black-list/lp-private.domain.yaml
 ```
 
-### [Ipcidr](https:/cdn.jsdelivr.net/gh/onemoon/rule-sets/src/black-list/lp-private.ipcidr.yaml)
+### Ipcidr
 
 ```md
 https:/cdn.jsdelivr.net/gh/onemoon/rule-sets/src/black-list/lp-private.ipcidr.yaml
