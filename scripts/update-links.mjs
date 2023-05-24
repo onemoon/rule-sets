@@ -19,7 +19,7 @@ const jsdelivrHost = "https://cdn.jsdelivr.net/gh/onemoon";
 
 // Get package's name
 const packageContent = readFileSync(packagePath);
-const projectName = JSON.parse(packageContent).name
+const projectName = JSON.parse(packageContent).name;
 
 // Get rule-set's path
 const ruleSetFile = readdirSync(blackListPath).filter(
@@ -50,7 +50,7 @@ readdir(directoryPath, (err, files) => {
     const linksStr = jsdelivrFullPaths
       .map((link) => {
         const type = getType(link);
-        return `### [${type}](${link})\n\n\`\`\`md\n${link}\n\`\`\``;
+        return `### <a href="${link}" target="_blank">${type}</a>\n\n\`\`\`md\n${link}\n\`\`\``;
       })
       .join("\n\n");
 
