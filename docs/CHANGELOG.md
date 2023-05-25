@@ -1,3 +1,10 @@
+# [0.3.0-dev.5](https://github.com/onemoon/rule-sets/compare/v0.3.0-dev.4...v0.3.0-dev.5) (2023-05-25)
+
+
+### Bug Fixes
+
+* **release:** assets of @semantic-release/github ([03296e8](https://github.com/onemoon/rule-sets/commit/03296e8e8d0b11ea984cfeec019284f6df375828))
+
 # [0.3.0-dev.4](https://github.com/onemoon/rule-sets/compare/v0.3.0-dev.3...v0.3.0-dev.4) (2023-05-25)
 
 
