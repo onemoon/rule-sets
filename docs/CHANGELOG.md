@@ -1,3 +1,10 @@
+# [0.3.0-dev.7](https://github.com/onemoon/rule-sets/compare/v0.3.0-dev.6...v0.3.0-dev.7) (2023-05-25)
+
+
+### Bug Fixes
+
+* **release:** config of semantic-release/npm ([328d403](https://github.com/onemoon/rule-sets/commit/328d4034d06cb7b80de4d4353f6a7d98775298fe))
+
 # [0.3.0-dev.6](https://github.com/onemoon/rule-sets/compare/v0.3.0-dev.5...v0.3.0-dev.6) (2023-05-25)
 
 
