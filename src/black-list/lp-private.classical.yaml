@@ -17,6 +17,7 @@ payload:
   - DOMAIN-SUFFIX,gitversion.net
   - DOMAIN-SUFFIX,dart.dev
   - DOMAIN-SUFFIX,mozilla.org
+  - DOMAIN-SUFFIX,ideachat.top
   - DOMAIN-KEYWORD,angular
   - DOMAIN-KEYWORD,gitlab
   - DOMAIN-KEYWORD,rarbg
