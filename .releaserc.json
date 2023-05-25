@@ -1,6 +1,21 @@
 {
   "branches": [
-    "dev"
+    "main",
+    {
+      "name": "dev",
+      "prerelease": true
+    }
   ],
-  "dryRun": true
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/npm",
+    [
+      "@semantic-release/github",
+      {
+        "assets": ["dist/**"]
+      }
+    ]
+  ],
+  "dryRun": false
 }

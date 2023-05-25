@@ -6,6 +6,9 @@
   "type": "module",
   "scripts": {
     "commit": "git-cz",
+    "build": "gulp build",
+    "format:check": "prettier --list-different \"**/*{js,mjs}\"",
+    "format:write": "prettier --write \"**/*{js,mjs}\"",
     "update-readme": "node scripts/update-links.mjs"
   },
   "repository": {
@@ -22,6 +25,8 @@
     "chalk": "^5.2.0",
     "commitizen": "^4.3.0",
     "cz-git": "^1.6.1",
+    "fs-extra": "^11.1.1",
+    "gulp": "^4.0.2",
     "prettier": "2.8.8",
     "semantic-release": "^21.0.2"
   },
