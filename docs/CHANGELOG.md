@@ -1,0 +1,7 @@
+# [0.3.0-dev.3](https://github.com/onemoon/rule-sets/compare/v0.3.0-dev.2...v0.3.0-dev.3) (2023-05-25)
+
+
+### Bug Fixes
+
+* **deps:** dependencies error ([d4ca52f](https://github.com/onemoon/rule-sets/commit/d4ca52f2eb6b0a95bed383c1acf479cc59af1839))
+* **deps:** dependencies error ([f637f6e](https://github.com/onemoon/rule-sets/commit/f637f6ecff1339c1db60386d20266960555593d5))
