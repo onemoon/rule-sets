@@ -1,3 +1,10 @@
+# [0.3.0-dev.6](https://github.com/onemoon/rule-sets/compare/v0.3.0-dev.5...v0.3.0-dev.6) (2023-05-25)
+
+
+### Bug Fixes
+
+* **release:** release error caused by empty file ([740bf0e](https://github.com/onemoon/rule-sets/commit/740bf0ea590bc822d269d08518109efdcd1fd597))
+
 # [0.3.0-dev.5](https://github.com/onemoon/rule-sets/compare/v0.3.0-dev.4...v0.3.0-dev.5) (2023-05-25)
 
 
