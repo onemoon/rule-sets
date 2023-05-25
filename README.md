@@ -14,12 +14,6 @@ https:/cdn.jsdelivr.net/gh/onemoon/rule-sets@latest/src/black-list/lp-private.cl
 https:/cdn.jsdelivr.net/gh/onemoon/rule-sets@latest/src/black-list/lp-private.domain.yaml
 ```
 
-### Ipcidr
-
-```md
-https:/cdn.jsdelivr.net/gh/onemoon/rule-sets@latest/src/black-list/lp-private.ipcidr.yaml
-```
-
 ## Software
 
 * [Clash for Windows](https://github.com/Fndroid/clash_for_windows_pkg)
