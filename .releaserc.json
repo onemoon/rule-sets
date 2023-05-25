@@ -1,0 +1,8 @@
+{
+  "release": {
+    "branches": [
+      "dev"
+    ]
+  },
+  "dryRun": true
+}
