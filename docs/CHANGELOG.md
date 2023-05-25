@@ -1,3 +1,16 @@
+# [0.4.0](https://github.com/onemoon/rule-sets/compare/v0.3.0...v0.4.0) (2023-05-25)
+
+
+### Bug Fixes
+
+* **release:** error of release config ([#12](https://github.com/onemoon/rule-sets/issues/12)) ([685fd2c](https://github.com/onemoon/rule-sets/commit/685fd2c4fb12078302bbb8786841f478d69c9b3a))
+* **release:** error of release trigger ([#11](https://github.com/onemoon/rule-sets/issues/11)) ([06ac3bd](https://github.com/onemoon/rule-sets/commit/06ac3bd0986cf143a593ec1fb26ba16337eb728a))
+
+
+### Features
+
+* **rules:** add new rule ([#10](https://github.com/onemoon/rule-sets/issues/10)) ([f0b6568](https://github.com/onemoon/rule-sets/commit/f0b6568f0dfced5cd9bef2e69f9af4d3a0c96469))
+
 # [0.3.0-dev.7](https://github.com/onemoon/rule-sets/compare/v0.3.0-dev.6...v0.3.0-dev.7) (2023-05-25)
 
 
