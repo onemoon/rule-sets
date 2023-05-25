@@ -1,8 +1,6 @@
 {
-  "release": {
-    "branches": [
-      "dev"
-    ]
-  },
+  "branches": [
+    "dev"
+  ],
   "dryRun": true
 }
