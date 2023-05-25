@@ -16,6 +16,7 @@ payload:
   - DOMAIN-SUFFIX,hackmd.io
   - DOMAIN-SUFFIX,gitversion.net
   - DOMAIN-SUFFIX,dart.dev
+  - DOMAIN-SUFFIX,mozilla.org
   - DOMAIN-KEYWORD,angular
   - DOMAIN-KEYWORD,gitlab
   - DOMAIN-KEYWORD,rarbg
