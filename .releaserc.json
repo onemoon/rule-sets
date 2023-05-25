@@ -19,19 +19,13 @@
     [
       "@semantic-release/github",
       {
-        "assets": [{ "path": "dist/**", "label": "Rule sets" }]
-      }
-    ],
-    [
-      "@semantic-release/exec",
-      {
-        "prepareCmd": "zip -r rule-sets.zip dist/**"
+        "assets": [{ "path": "./dist/**" }]
       }
     ],
     [
       "@semantic-release/git",
       {
-        "assets": ["rule-sets.zip", "package.json", "docs/CHANGELOG.md"],
+        "assets": ["package.json", "docs/CHANGELOG.md"],
         "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
       }
     ]

@@ -23,7 +23,6 @@
   "homepage": "https://github.com/onemoon/rule-sets#readme",
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
-    "@semantic-release/exec": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "chalk": "^5.2.0",
     "commitizen": "^4.3.0",
