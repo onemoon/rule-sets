@@ -13,7 +13,9 @@
     [
       "@semantic-release/github",
       {
-        "assets": ["dist/**"]
+        "assets": ["dist/*.zip", "dist/*.tar.gz"],
+        "successComment": ":tada:\n\nThe release is available on [GitHub release](<github_release_url>)",
+        "failComment": "There was an error publishing this release. :cry:"
       }
     ]
   ],
