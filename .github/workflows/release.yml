@@ -1,9 +1,9 @@
 name: Release
 
 on:
-  push:
-    branches:
-      - dev
+  # push:
+  #   branches:
+  #     - dev
   pull_request:
     types: [closed]
     branches:
@@ -11,7 +11,7 @@ on:
 
 jobs:
   build:
-    # if: ${{ github.event.pull_request.merged }}
+    if: ${{ github.event.pull_request.merged }}
     name: Build and Release
     runs-on: ubuntu-latest
     permissions:
