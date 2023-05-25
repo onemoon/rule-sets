@@ -5,19 +5,19 @@
 ### Classical
 
 ```md
-https:/cdn.jsdelivr.net/gh/onemoon/rule-sets/src/black-list/lp-private.classical.yaml
+https:/cdn.jsdelivr.net/gh/onemoon/rule-sets@latest/src/black-list/lp-private.classical.yaml
 ```
 
 ### Domain
 
 ```md
-https:/cdn.jsdelivr.net/gh/onemoon/rule-sets/src/black-list/lp-private.domain.yaml
+https:/cdn.jsdelivr.net/gh/onemoon/rule-sets@latest/src/black-list/lp-private.domain.yaml
 ```
 
 ### Ipcidr
 
 ```md
-https:/cdn.jsdelivr.net/gh/onemoon/rule-sets/src/black-list/lp-private.ipcidr.yaml
+https:/cdn.jsdelivr.net/gh/onemoon/rule-sets@latest/src/black-list/lp-private.ipcidr.yaml
 ```
 
 ## Software
