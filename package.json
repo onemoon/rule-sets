@@ -36,5 +36,9 @@
     "commitizen": {
       "path": "node_modules/cz-git"
     }
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "pkgRoot": "dist"
   }
 }
