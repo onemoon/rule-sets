@@ -1,3 +1,10 @@
+# [0.3.0-dev.4](https://github.com/onemoon/rule-sets/compare/v0.3.0-dev.3...v0.3.0-dev.4) (2023-05-25)
+
+
+### Bug Fixes
+
+* **release:** error of release config ([53c764f](https://github.com/onemoon/rule-sets/commit/53c764fc8d923c01a3d3415d0904aade312b65b8))
+
 # [0.3.0-dev.3](https://github.com/onemoon/rule-sets/compare/v0.3.0-dev.2...v0.3.0-dev.3) (2023-05-25)
 
 
