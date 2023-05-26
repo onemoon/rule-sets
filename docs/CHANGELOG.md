@@ -1,3 +1,10 @@
+## [0.5.3](https://github.com/onemoon/rule-sets/compare/v0.5.2...v0.5.3) (2023-05-26)
+
+
+### Bug Fixes
+
+* **release:** the error of missing dist files ([#17](https://github.com/onemoon/rule-sets/issues/17)) ([9925f92](https://github.com/onemoon/rule-sets/commit/9925f92c1bd1fcb5b19bad64982ab497ce5f9070))
+
 ## [0.5.2](https://github.com/onemoon/rule-sets/compare/v0.5.1...v0.5.2) (2023-05-26)
 
 
