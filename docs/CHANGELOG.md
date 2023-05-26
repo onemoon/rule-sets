@@ -1,3 +1,10 @@
+## [0.5.4](https://github.com/onemoon/rule-sets/compare/v0.5.3...v0.5.4) (2023-05-26)
+
+
+### Bug Fixes
+
+* **release:** error of building dist files ([#18](https://github.com/onemoon/rule-sets/issues/18)) ([49cf1c9](https://github.com/onemoon/rule-sets/commit/49cf1c9427f2e5d42ad7ecf491d4c8261165d7c8))
+
 ## [0.5.3](https://github.com/onemoon/rule-sets/compare/v0.5.2...v0.5.3) (2023-05-26)
 
 
