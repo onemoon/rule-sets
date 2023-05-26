@@ -1,3 +1,10 @@
+## [0.5.1](https://github.com/onemoon/rule-sets/compare/v0.5.0...v0.5.1) (2023-05-26)
+
+
+### Bug Fixes
+
+* **release:** error of release config ([#15](https://github.com/onemoon/rule-sets/issues/15)) ([b684850](https://github.com/onemoon/rule-sets/commit/b684850a185cfa24d2f23a24b53f3e9d3cc21ccb))
+
 # [0.5.0](https://github.com/onemoon/rule-sets/compare/v0.4.0...v0.5.0) (2023-05-26)
 
 
