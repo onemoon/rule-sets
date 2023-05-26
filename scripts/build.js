@@ -8,5 +8,5 @@ export function clean() {
 }
 
 export function build() {
-  return src('src/black-list/**/*.yaml').pipe(dest('dist/rule-providers'));
+  return src('src/rule-providers/**/*.yaml').pipe(dest('dist/rule-providers'));
 }
