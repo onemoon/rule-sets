@@ -1,6 +1,6 @@
 {
   "name": "rule-sets",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "## Software",
   "main": "index.js",
   "type": "module",
