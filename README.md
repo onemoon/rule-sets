@@ -7,17 +7,17 @@ A private collection of `clash` rule providers. :key::unlock:
 ### classical
 
 ```md
-https:/cdn.jsdelivr.net/npm/rule-sets@latest/src/black-list/lp-private.classical.yaml
+https://cdn.jsdelivr.net/npm/rule-sets@latest/dist/rule-providers/lp-private.classical.yaml
 
-https:/cdn.jsdelivr.net/gh/onemoon/rule-sets@latest/src/black-list/lp-private.classical.yaml
+https://cdn.jsdelivr.net/gh/onemoon/rule-sets@latest/dist/rule-providers/lp-private.classical.yaml
 ```
 
 ### domain
 
 ```md
-https:/cdn.jsdelivr.net/npm/rule-sets@latest/src/black-list/lp-private.domain.yaml
+https://cdn.jsdelivr.net/npm/rule-sets@latest/dist/rule-providers/lp-private.domain.yaml
 
-https:/cdn.jsdelivr.net/gh/onemoon/rule-sets@latest/src/black-list/lp-private.domain.yaml
+https://cdn.jsdelivr.net/gh/onemoon/rule-sets@latest/dist/rule-providers/lp-private.domain.yaml
 ```
 
 ## Software

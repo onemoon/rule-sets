@@ -10,7 +10,7 @@ import { extname, join } from 'path';
 
 // Paths
 const directoryPath = './';
-const blackListPath = './src/black-list';
+const blackListPath = './src/rule-providers';
 const packagePath = 'package.json';
 const readme = 'README.md';
 
@@ -31,8 +31,11 @@ const ruleSetFile = readdirSync(blackListPath).filter(
 const linkList = ruleSetFile.map((fileName) => {
   return {
     type: getType(fileName),
-    links: keys.map((key) =>
-      join(rootEndpoint, key, projectName, blackListPath, fileName)
+    links: keys.map(
+      (key) =>
+        new URL(
+          join(rootEndpoint, key, projectName, 'dist/rule-providers', fileName)
+        ).href
     ),
   };
 });
