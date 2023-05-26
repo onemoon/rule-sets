@@ -16,7 +16,10 @@ const readme = 'README.md';
 
 /** `jsdelivr` root point */
 const rootEndpoint = 'https://cdn.jsdelivr.net';
-const keys = ['npm', 'gh/onemoon'];
+const keys = [
+  { key: 'npm', path: 'dist/rule-providers' },
+  { key: 'gh/onemoon', path: 'src/rule-providers' },
+];
 
 // Get package's name
 const packageContent = readFileSync(packagePath);
@@ -32,10 +35,8 @@ const linkList = ruleSetFile.map((fileName) => {
   return {
     type: getType(fileName),
     links: keys.map(
-      (key) =>
-        new URL(
-          join(rootEndpoint, key, projectName, 'dist/rule-providers', fileName)
-        ).href
+      ({ key, path }) =>
+        new URL(join(rootEndpoint, key, projectName, path, fileName)).href
     ),
   };
 });
