@@ -14,8 +14,9 @@ const blackListPath = './src/black-list';
 const packagePath = 'package.json';
 const readme = 'README.md';
 
-// jsdelivr + Github
-const jsdelivrHost = 'https://cdn.jsdelivr.net/gh/onemoon';
+/** `jsdelivr` root point */
+const rootEndpoint = 'https://cdn.jsdelivr.net';
+const keys = ['npm', 'gh/onemoon'];
 
 // Get package's name
 const packageContent = readFileSync(packagePath);
@@ -27,8 +28,13 @@ const ruleSetFile = readdirSync(blackListPath).filter(
 );
 
 // Generate full path
-const jsdelivrFullPaths = ruleSetFile.map((mdFile) => {
-  return join(jsdelivrHost, projectName, blackListPath, mdFile);
+const linkList = ruleSetFile.map((fileName) => {
+  return {
+    type: getType(fileName),
+    links: keys.map((key) =>
+      join(rootEndpoint, key, projectName, blackListPath, fileName)
+    ),
+  };
 });
 
 // Generate jsdelivr link, and insert into README.md
@@ -47,10 +53,10 @@ readdir(directoryPath, (err, files) => {
   mdFiles.forEach((mdFile) => {
     const filePath = join(directoryPath, mdFile);
 
-    const linksStr = jsdelivrFullPaths
-      .map((link) => {
-        const type = getType(link);
-        return `### ${type}\n\n\`\`\`md\n${link}\n\`\`\``;
+    const linksStr = linkList
+      .map(({ links, type }) => {
+        const linkStr = links.join('\n\n');
+        return `### ${type}\n\n\`\`\`md\n${linkStr}\n\`\`\``;
       })
       .join('\n\n');
 
@@ -62,10 +68,10 @@ readdir(directoryPath, (err, files) => {
         return;
       }
       // # Rule sets
-      const regex = /(?<=# Rule sets\n)[\s\S]*(?=\n## Software)/;
+      const regex = /(?<=\:\n)[\s\S]*(?=\n## Software)/;
       const replacedContent = mdContent.replace(
         regex,
-        `\n## jsdelivr link of Rule sets\n\n${linksStr}\n`
+        `\n## jsdelivr link of rule providers\n\n${linksStr}\n`
       );
       // console.log(replacedContent);
       writeFileSync(filePath, replacedContent, 'utf8');
@@ -75,6 +81,12 @@ readdir(directoryPath, (err, files) => {
 });
 
 function getType(str) {
+  const match = str.match(/\.(\w+)\.yaml$/); // 匹配文件名中以 . 开头、以 .yaml 结尾的字段，例如 classical
+  const extracted = match ? match[1] : ''; // 如果匹配成功，则提取匹配的内容；否则为 ''
+  return extracted;
+}
+
+function getUpperCaseType(str) {
   const match = str.match(/\.(\w+)\.yaml$/); // 匹配文件名中以 . 开头、以 .yaml 结尾的字段，例如 classical
   const extracted = match ? match[1] : ''; // 如果匹配成功，则提取匹配的内容；否则为 ''
 
