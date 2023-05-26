@@ -72,7 +72,7 @@ module.exports = {
   useAI: false,
   aiNumber: 1,
   themeColorCode: '',
-  scopes: ['rules', 'release', 'deps', 'package'],
+  scopes: ['rules', 'release', 'deps', 'package', 'lint'],
   allowCustomScopes: true,
   allowEmptyScopes: true,
   customScopesAlign: 'bottom',

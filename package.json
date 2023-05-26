@@ -28,6 +28,8 @@
   },
   "homepage": "https://github.com/onemoon/rule-sets#readme",
   "devDependencies": {
+    "@commitlint/cli": "^17.6.3",
+    "@commitlint/config-conventional": "^17.6.3",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "chalk": "^5.2.0",
@@ -35,6 +37,7 @@
     "cz-git": "^1.6.1",
     "fs-extra": "^11.1.1",
     "gulp": "^4.0.2",
+    "husky": "^8.0.3",
     "prettier": "2.8.8",
     "semantic-release": "^21.0.2"
   },
