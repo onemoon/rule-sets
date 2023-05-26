@@ -1,3 +1,10 @@
+## [0.5.5](https://github.com/onemoon/rule-sets/compare/v0.5.4...v0.5.5) (2023-05-26)
+
+
+### Bug Fixes
+
+* **providers:** error of providers link ([#19](https://github.com/onemoon/rule-sets/issues/19)) ([414214a](https://github.com/onemoon/rule-sets/commit/414214a876a1265553e428b2f018f21d9cc873e5))
+
 ## [0.5.4](https://github.com/onemoon/rule-sets/compare/v0.5.3...v0.5.4) (2023-05-26)
 
 
