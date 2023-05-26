@@ -15,11 +15,11 @@
     "type": "git",
     "url": "git+https://github.com/onemoon/rule-sets.git"
   },
-  "author": "lpeng",
+  "author": "lpeng <lpengmoon@gmail.com>",
   "license": "MIT",
   "keywords": [
     "clash",
-    "rule-set",
+    "rule",
     "provider",
     "parsers"
   ],
@@ -41,6 +41,14 @@
     "prettier": "2.8.8",
     "semantic-release": "^21.0.2"
   },
+  "files": [
+    "dist",
+    "src",
+    "docs",
+    "package.json",
+    "LICENSE",
+    "README.md"
+  ],
   "config": {
     "commitizen": {
       "path": "node_modules/cz-git"
