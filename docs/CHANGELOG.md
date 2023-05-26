@@ -1,3 +1,10 @@
+# [0.5.0](https://github.com/onemoon/rule-sets/compare/v0.4.0...v0.5.0) (2023-05-26)
+
+
+### Features
+
+* **providers:** add new jsdelivr links  ([#14](https://github.com/onemoon/rule-sets/issues/14)) ([9f18cf0](https://github.com/onemoon/rule-sets/commit/9f18cf0a47adc29a4510a27857ced0e2870721e6))
+
 # [0.4.0](https://github.com/onemoon/rule-sets/compare/v0.3.0...v0.4.0) (2023-05-25)
 
 
