@@ -1,7 +1,7 @@
 {
   "name": "rule-sets",
   "version": "0.5.5",
-  "description": "## Software",
+  "description": "A self-used collection of rule providers",
   "main": "index.js",
   "type": "module",
   "scripts": {
