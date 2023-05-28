@@ -1,3 +1,10 @@
+# [0.6.0](https://github.com/onemoon/rule-sets/compare/v0.5.5...v0.6.0) (2023-05-28)
+
+
+### Features
+
+* **rules:** add new rules ([#20](https://github.com/onemoon/rule-sets/issues/20)) ([b6fb19b](https://github.com/onemoon/rule-sets/commit/b6fb19bff74822e82883426f29adf0d91866309a))
+
 ## [0.5.5](https://github.com/onemoon/rule-sets/compare/v0.5.4...v0.5.5) (2023-05-26)
 
 

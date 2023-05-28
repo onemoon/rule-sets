@@ -1,6 +1,6 @@
 {
   "name": "rule-sets",
-  "version": "0.5.5",
+  "version": "0.6.0",
   "description": "A self-used collection of rule providers",
   "main": "index.js",
   "type": "module",
