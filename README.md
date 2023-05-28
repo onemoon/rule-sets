@@ -32,7 +32,9 @@ https://cdn.jsdelivr.net/gh/onemoon/rule-sets@latest/src/rule-providers/lp-priva
 
 ## Configuration and Wiki
 
-- [Clash wiki](https://github.com/Dreamacro/clash/wiki)
+- [Clash Doc](https://dreamacro.github.io/clash/)
+
+- [Rule Providers](https://dreamacro.github.io/clash/premium/rule-providers.html)
 
 - [Clash for Windows Doc](https://docs.cfw.lbyczf.com/)
 
@@ -40,9 +42,9 @@ https://cdn.jsdelivr.net/gh/onemoon/rule-sets@latest/src/rule-providers/lp-priva
 
 - [什么是 rule-provider、proxy-provider？怎么用？clash 分流规则终极使用方法，还支持 clash、openclash、clash for window, Stash, ClashX Pro 客户端](https://www.jamesdailylife.com/rule-proxy-provider)
 
-- [jsdelivr Github](https://www.jsdelivr.com/documentation#id-github)
+- [jsDelivr Doc](https://www.jsdelivr.com/documentation)
 
-- [parsers config](https://docs.cfw.lbyczf.com/contents/parser.html#%E8%BF%9B%E9%98%B6%E6%96%B9%E6%B3%95-javascript)
+- [Parsers Config](https://docs.cfw.lbyczf.com/contents/parser.html#%E8%BF%9B%E9%98%B6%E6%96%B9%E6%B3%95-javascript)
 
 ### Doc Help
 
