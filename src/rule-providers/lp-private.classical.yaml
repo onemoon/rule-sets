@@ -1,4 +1,5 @@
 payload:
+  - DOMAIN,docs.npmjs.com
   - DOMAIN-SUFFIX,deepl.com
   - DOMAIN-SUFFIX,github.com
   - DOMAIN-SUFFIX,codepen.io
@@ -18,7 +19,7 @@ payload:
   - DOMAIN-SUFFIX,dart.dev
   - DOMAIN-SUFFIX,mozilla.org
   - DOMAIN-SUFFIX,ideachat.top
-  - DOMAIN-KEYWORD,angular
-  - DOMAIN-KEYWORD,gitlab
+  - DOMAIN-SUFFIX,gitlab.com
+  - DOMAIN-SUFFIX,angular.io
   - DOMAIN-KEYWORD,rarbg
   - DOMAIN-KEYWORD,libgen
