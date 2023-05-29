@@ -1,3 +1,5 @@
+ This repo is archived. Please check [Rule Providers](https://github.com/onemoon/rule-providers)
+
 # Rule sets
 
 A private collection of `clash` rule providers. :key::unlock:
